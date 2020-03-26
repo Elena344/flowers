@@ -63,6 +63,15 @@ a.main-logo:hover{
 	border-radius: 0;
 }
 
+.card a{
+	color: #949393;
+}
+
+.card a:hover{
+	color: #949393;
+	text-decoration: none;
+}
+
 .modal-header, .modal-footer{
 	border: 0;
 }
@@ -85,10 +94,6 @@ a.main-logo:hover{
 .lighten{
 	background-color: #fff;
 	border-left: none;
-}
-
-#inputState{
-	border: 1px solid #d6d6d6;
 }
 
 .navbar{
@@ -210,9 +215,13 @@ a.nav-link.active{
 	border: none;
 }
 
+.page-link:hover{
+    color: #000;
+}
+
 .product__container img{
 	width: 100%;
-	height: auto;	
+	height: auto;
 }
 
 .product__container{
@@ -304,11 +313,12 @@ a.nav-link.active{
 .btn-info{
 	box-shadow: 2px 2px 0px rgba(1,151,165,0.8);
 	background-color: #01c9db;
-	border-color: #01c9db;
+	border: 0;
 }
 
-.btn-info:hoveer{
+.btn-info:hover{
 	border: 0;
+	background-color: #01b8c8;
 }
 
 /*--- btn end---*/
@@ -430,6 +440,10 @@ a.nav-link.active{
 .widget__desc{
 	padding-left: 25px;
 
+}
+
+.widget a{
+	text-decoration: none;
 }
 
 .widget__title{
@@ -701,6 +715,10 @@ ul.breadcrumb{
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
 
+	.card{
+		margin-top: 10px;
+	}
+	
 	.navbar a {
 		margin-right: 0;
 	}
